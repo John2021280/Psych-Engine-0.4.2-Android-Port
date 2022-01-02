@@ -1,0 +1,34 @@
+{
+	"background": [
+		{
+			"name": "halloweenBG",
+			"atlas": {
+				"key": "halloween_bg",
+				"library": "week2"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "halloweem bg0",
+					"loop": true
+				},
+				{
+					"name": "lightning",
+					"prefix": "halloweem bg lightning strike",
+					"frameRate": 24,
+					"loop": false
+				}
+			],
+			"position": { "x": -200, "y": -80 },
+			"antialiasing": true
+		}
+	],
+	"groups": [],
+	"foreground": [],
+	"objectOrder": [],
+	"playerPosition": { "x": 0, "y": 0 },
+	"gfPosition": { "x": 0, "y": 0 },
+	"opponentPosition": { "x": 0, "y": 0 },
+	"lightning": true,
+	"cameraZoom": 1.05
+}

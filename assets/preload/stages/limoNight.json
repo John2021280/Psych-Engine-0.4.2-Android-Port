@@ -3,7 +3,7 @@
 		{
 			"name": "skyBG",
 			"atlas": {
-				"key": "limo/limoSunset",
+				"key": "limo/limoNight",
 				"library": "week4"
 			},
 			"position": { "x": -120, "y": -50 },

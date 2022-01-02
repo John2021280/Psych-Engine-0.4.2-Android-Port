@@ -1,0 +1,69 @@
+{
+	"background": [
+		{
+			"name": "bg",
+			"atlas": {
+				"key": "survive-bar/bg",
+				"library": "week4"
+			},
+			"active": false,
+			"position": { "x": -280, "y": -290 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 1.1, "y": 1.1 }
+		},
+		{
+			"name": "kanata",
+			"atlas": {
+				"key": "survive-bar/kanataboppin",
+				"library": "week4"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "kanata bar boppin",
+					"frameRate": 24
+				}
+			],
+			"active": true,
+			"position": { "x": 1400, "y": 250 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.7, "y": 0.7 }
+		},
+		{
+			"name": "shadows",
+			"atlas": {
+				"key": "survive-bar/shadows",
+				"library": "week4"
+			},
+			"active": false,
+			"position": { "x": -280, "y": -300 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 1, "y": 1 },
+			"graphicScale": { "x": 1.1, "y": 1.1 }
+		}
+	],
+	"groups": [],
+	"foreground": [
+		{
+			"layer": 2,
+			"name": "fg",
+			"atlas": {
+				"key": "survive-bar/fg",
+				"library": "week4"
+			},
+			"active": false,
+			"position": { "x": -180, "y": -200 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 1.1, "y": 1.1 },
+			"graphicScale": { "x": 1.1, "y": 1.1 }
+		}
+	],
+	"objectOrder": [ "bg", "kanata", "shadows" ],
+	"playerPosition": { "x": 170, "y": 0 },
+	"gfPosition": { "x": 0, "y": 0 },
+	"opponentPosition": { "x": -35, "y": -35 },
+	"lightning": false,
+	"cameraZoom": 0.88
+}

@@ -1,0 +1,74 @@
+{
+	"background": [
+		{
+			"name": "bg",
+			"atlas": {
+				"key": "camellia/BG_CITY",
+				"library": "week3"
+			},
+			"active": false,
+			"position": { "x": -250, "y": -100 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.5, "y": 0.5 },
+			"scale": { "x": 1.55, "y": 1.55 }
+		},
+		{
+			"name": "wall",
+			"atlas": {
+				"key": "camellia/BG_WALL",
+				"library": "week3"
+			},
+			"active": false,
+			"position": { "x": -250, "y": -100 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 1, "y": 1 },
+			"scale": { "x": 1.55, "y": 1.55 }
+		},
+		{
+			"name": "stage",
+			"atlas": {
+				"key": "camellia/FG_Floor",
+				"library": "week3"
+			},
+			"active": false,
+			"position": { "x": -250, "y": -100 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"scale": { "x": 1.55, "y": 1.55 }
+		},
+		{
+			"name": "glow_bf",
+			"atlas": {
+				"key": "camellia/BF_GLOW",
+				"library": "week3"
+			},
+			"active": false,
+			"alpha": 0.5,
+			"position": { "x": -350, "y": -30 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 1, "y": 1 },
+			"scale": { "x": 1.2, "y": 1.2 }
+		},
+		{
+			"name": "glow_cam",
+			"atlas": {
+				"key": "camellia/CAMELLIA_GLOW",
+				"library": "week3"
+			},
+			"active": false,
+			"alpha": 0.5,
+			"position": { "x": -415, "y": -50 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 1, "y": 1 },
+			"scale": { "x": 1.2, "y": 1.2 }
+		}
+	],
+	"groups": [],
+	"foreground": [],
+	"objectOrder": [ "bg", "wall", "stage", "glow_bf", "glow_cam" ],
+	"playerPosition": { "x": 310, "y": 75 },
+	"gfPosition": { "x": 0, "y": 50 },
+	"opponentPosition": { "x": 0, "y": 0 },
+	"lightning": false,
+	"cameraZoom": 0.5
+}

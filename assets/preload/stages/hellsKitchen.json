@@ -1,0 +1,109 @@
+{
+	"background": [
+		{
+			"name": "bg",
+			"atlas": {
+				"key": "christmas/evilBG",
+				"library": "week5"
+			},
+			"active": false,
+			"position": { "x": -600, "y": -300 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 1, "y": 1 }
+		},
+		{
+			"name": "fireGlow",
+			"atlas": {
+				"key": "christmas/fireGlow",
+				"library": "week5"
+			},
+			"active": false,
+			"alpha": 0,
+			"position": { "x": -610, "y": -375 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 }
+		},
+		{
+			"condition": "!treeCensorship",
+			"name": "evilTreeUncensored",
+			"atlas": {
+				"key": "christmas/evilTreeUncensored",
+				"library": "week5"
+			},
+			"position": { "x": 300, "y": -100 },
+			"scrollFactor": { "x": 0.9, "y": 0.9 }
+		},
+		{
+			"condition": "treeCensorship",
+			"name": "evilTree",
+			"atlas": {
+				"key": "christmas/evilTree",
+				"library": "week5"
+			},
+			"position": { "x": 300, "y": -100 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 }
+		}
+	],
+	"groups": [
+		{
+			"name": "grpFireBursts",
+			"objects": [
+				{
+					"name": "fireBurst0",
+					"atlas": {
+						"key": "christmas/fireGoBrr",
+						"library": "week5"
+					},
+					"animations": [
+						{
+							"name": "idle",
+							"prefix": "FireIdle0"
+						},
+						{
+							"name": "fire",
+							"prefix": "Fire0",
+							"frameRate": 24,
+							"loop": false
+						}
+					],
+					"initAnim": "idle",
+					"position": { "x": 770, "y": -5 },
+					"antialiasing": true,
+					"scrollFactor": { "x": 0.9, "y": 0.9 }
+				},
+				{
+					"name": "fireBurst1",
+					"atlas": {
+						"key": "christmas/fireGoBrr",
+						"library": "week5"
+					},
+					"animations": [
+						{
+							"name": "idle",
+							"prefix": "FireIdle0"
+						},
+						{
+							"name": "fire",
+							"prefix": "Fire0",
+							"frameRate": 24,
+							"loop": false
+						}
+					],
+					"initAnim": "idle",
+					"position": { "x": 1000, "y": -5 },
+					"antialiasing": true,
+					"scrollFactor": { "x": 0.9, "y": 0.9 }
+				}
+			]
+		}
+	],
+	"foreground": [],
+	"objectOrder": [ "bg", "fireGlow", "fireBurst0", "fireBurst1", "evilTreeUncensored", "evilTree" ],
+	"playerPosition": { "x": 320, "y": 300 },
+	"gfPosition": { "x": 0, "y": 300 },
+	"opponentPosition": { "x": 0, "y": 0 },
+	"lightning": false,
+	"cameraZoom": 0.9
+}

@@ -1,9 +1,182 @@
 {
-	"directory": "week5",
-	"defaultZoom": 0.8,
-	"isPixelStage": false,
-
-	"boyfriend": [970, 100],
-	"girlfriend": [400, 130],
-	"opponent": [100, 100]
+	"background": [
+		{
+			"name": "bg",
+			"atlas": {
+				"key": "christmas/bgWalls",
+				"library": "week5"
+			},
+			"active": false,
+			"position": { "x": -1000, "y": -500 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.8, "y": 0.8 }
+		},
+		{
+			"distraction": true,
+			"name": "upperBoppersLEFT",
+			"atlas": {
+				"key": "christmas/upper_bop_LEFT",
+				"library": "week5"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "Upper Crowd Bob",
+					"frameRate": 24
+				}
+			],
+			"position": { "x": -378, "y": -74 },
+			"antialiasing": true,
+			"rotation": 2,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.85, "y": 0.85 }
+		},
+		{
+			"distraction": true,
+			"name": "upperBoppersRIGHT",
+			"atlas": {
+				"key": "christmas/upper_bop_RIGHT",
+				"library": "week5"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "Upper Crowd Bob",
+					"frameRate": 24
+				}
+			],
+			"position": { "x": 889, "y": -60 },
+			"antialiasing": true,
+			"rotation": 1,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.85, "y": 0.85 }
+		},
+		{
+			"name": "bgEscalator",
+			"atlas": {
+				"key": "christmas/bgEscalator",
+				"library": "week5"
+			},
+			"active": false,
+			"position": { "x": -1090, "y": -559 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.9, "y": 0.9 }
+		},
+		{
+			"name": "tree",
+			"atlas": {
+				"key": "christmas/christmasTree",
+				"library": "week5"
+			},
+			"position": { "x": 345, "y": -402 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 }
+		},
+		{
+			"distraction": true,
+			"name": "flare",
+			"atlas": {
+				"key": "christmas/flare",
+				"library": "week5"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "flare",
+					"frameRate": 24
+				}
+			],
+			"position": { "x": -405, "y": 261 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.9, "y": 0.9 }
+		},
+		{
+			"distraction": true,
+			"name": "noel",
+			"atlas": {
+				"key": "christmas/noel",
+				"library": "week5"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "noel",
+					"frameRate": 24
+				}
+			],
+			"position": { "x": 316, "y": 223 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.9, "y": 0.9 }
+		},
+		{
+			"distraction": true,
+			"name": "irys",
+			"atlas": {
+				"key": "christmas/irys",
+				"library": "week5"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "irys",
+					"frameRate": 24
+				}
+			],
+			"position": { "x": 727, "y": 241 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.9, "y": 0.9 }
+		},
+		{
+			"distraction": true,
+			"name": "marineAquaSuisei",
+			"atlas": {
+				"key": "christmas/marineAquaSuisei",
+				"library": "week5"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "Bottom Level Boppers",
+					"frameRate": 24
+				}
+			],
+			"position": { "x": 979, "y": -88 },
+			"antialiasing": true,
+			"scrollFactor": { "x": 0.9, "y": 0.9 },
+			"graphicScale": { "x": 0.9, "y": 0.9 }
+		}
+	],
+	"groups": [],
+	"foreground": [
+		{
+			"distraction": true,
+			"layer": 1,
+			"name": "santa",
+			"atlas": {
+				"key": "christmas/santa",
+				"library": "week5"
+			},
+			"animations": [
+				{
+					"name": "idle",
+					"prefix": "santa idle in fear",
+					"frameRate": 24
+				}
+			],
+			"position": { "x": -675, "y": 220 },
+			"antialiasing": true,
+			"graphicScale": { "x": 0.95, "y": 0.95 }
+		}
+	],
+	"objectOrder": [ "bg", "upperBoppersLEFT", "upperBoppersRIGHT", "bgEscalator", "tree", "noel", "flare", "irys", "marineAquaSuisei" ],
+	"playerPosition": { "x": 100, "y": 0 },
+	"gfPosition": { "x": -220, "y": 0 },
+	"opponentPosition": { "x": 0, "y": 0 },
+	"lightning": false,
+	"cameraZoom": 0.8
 }
